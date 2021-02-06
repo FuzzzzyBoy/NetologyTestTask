@@ -20,12 +20,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1")!
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
-            if let data = data,
-               let post = try? JSONDecoder().decode(Post.self, from: data) {
-                print(post)
-            }
-        }.resume()
+        let documentDirectoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let fileURL = documentDirectoryURL.appendingPathComponent("post.json")
+        if let data = try? Data(contentsOf: fileURL) {
+            let post = try! JSONDecoder().decode(Post.self, from: data)
+            print(post)
+        } else {
+            URLSession.shared.dataTask(with: url) { (data, response, error) in
+                let post = try! JSONDecoder().decode(Post.self, from: data!)
+                let postData = try! JSONEncoder().encode(post)
+                try! postData.write(to: fileURL)
+                print("Save to disk")
+            }.resume()
+        }
     }
 
 }
