@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  NetologyTestTask
-//
-//  Created by k.shakhansky on 06.02.2021.
-//
-
 import UIKit
 
 struct Post: Codable {
@@ -14,7 +7,7 @@ struct Post: Codable {
     let userId: Int
 }
 
-class ViewController: UIViewController {
+class ViewController01: UIViewController {
 
     private let stackView: UIStackView = {
         let stackView = UIStackView()

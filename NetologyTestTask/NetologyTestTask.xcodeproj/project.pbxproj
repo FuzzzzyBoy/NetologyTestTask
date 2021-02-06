@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9C2D5AFC25CF141E002E7721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5AFB25CF141E002E7721 /* AppDelegate.swift */; };
 		9C2D5AFE25CF141E002E7721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5AFD25CF141E002E7721 /* SceneDelegate.swift */; };
-		9C2D5B0025CF141E002E7721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5AFF25CF141E002E7721 /* ViewController.swift */; };
+		9C2D5B0025CF141E002E7721 /* ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5AFF25CF141E002E7721 /* ViewController01.swift */; };
 		9C2D5B0525CF1420002E7721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D5B0425CF1420002E7721 /* Assets.xcassets */; };
 		9C2D5B0825CF1420002E7721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D5B0625CF1420002E7721 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		9C2D5AF825CF141E002E7721 /* NetologyTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetologyTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2D5AFB25CF141E002E7721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C2D5AFD25CF141E002E7721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C2D5AFF25CF141E002E7721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C2D5AFF25CF141E002E7721 /* ViewController01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController01.swift; sourceTree = "<group>"; };
 		9C2D5B0425CF1420002E7721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C2D5B0725CF1420002E7721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2D5B0925CF1420002E7721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,12 +56,20 @@
 			children = (
 				9C2D5AFB25CF141E002E7721 /* AppDelegate.swift */,
 				9C2D5AFD25CF141E002E7721 /* SceneDelegate.swift */,
-				9C2D5AFF25CF141E002E7721 /* ViewController.swift */,
+				9C2D5B1425CF1E56002E7721 /* 01 */,
 				9C2D5B0425CF1420002E7721 /* Assets.xcassets */,
 				9C2D5B0625CF1420002E7721 /* LaunchScreen.storyboard */,
 				9C2D5B0925CF1420002E7721 /* Info.plist */,
 			);
 			path = NetologyTestTask;
+			sourceTree = "<group>";
+		};
+		9C2D5B1425CF1E56002E7721 /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D5AFF25CF141E002E7721 /* ViewController01.swift */,
+			);
+			path = 01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2D5B0025CF141E002E7721 /* ViewController.swift in Sources */,
+				9C2D5B0025CF141E002E7721 /* ViewController01.swift in Sources */,
 				9C2D5AFC25CF141E002E7721 /* AppDelegate.swift in Sources */,
 				9C2D5AFE25CF141E002E7721 /* SceneDelegate.swift in Sources */,
 			);
