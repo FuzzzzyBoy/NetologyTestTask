@@ -13,6 +13,8 @@
 		9C2D5B0525CF1420002E7721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D5B0425CF1420002E7721 /* Assets.xcassets */; };
 		9C2D5B0825CF1420002E7721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2D5B0625CF1420002E7721 /* LaunchScreen.storyboard */; };
 		9C2D5B1925CFDDE1002E7721 /* ViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5B1825CFDDE1002E7721 /* ViewController02.swift */; };
+		9C2D5B1E25CFE24B002E7721 /* ViewController03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5B1D25CFE24B002E7721 /* ViewController03.swift */; };
+		9C2D5B2325CFE348002E7721 /* ViewModel03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D5B2225CFE348002E7721 /* ViewModel03.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9C2D5B0725CF1420002E7721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2D5B0925CF1420002E7721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C2D5B1825CFDDE1002E7721 /* ViewController02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController02.swift; sourceTree = "<group>"; };
+		9C2D5B1D25CFE24B002E7721 /* ViewController03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController03.swift; sourceTree = "<group>"; };
+		9C2D5B2225CFE348002E7721 /* ViewModel03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel03.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,9 @@
 				9C2D5AFD25CF141E002E7721 /* SceneDelegate.swift */,
 				9C2D5B1425CF1E56002E7721 /* 01 */,
 				9C2D5B1725CFDDCA002E7721 /* 02 */,
-				9C2D5B0625CF1420002E7721 /* LaunchScreen.storyboard */,
+				9C2D5B1C25CFE234002E7721 /* 03 */,
 				9C2D5B0425CF1420002E7721 /* Assets.xcassets */,
+				9C2D5B0625CF1420002E7721 /* LaunchScreen.storyboard */,
 				9C2D5B0925CF1420002E7721 /* Info.plist */,
 			);
 			path = NetologyTestTask;
@@ -81,6 +86,15 @@
 				9C2D5B1825CFDDE1002E7721 /* ViewController02.swift */,
 			);
 			path = 02;
+			sourceTree = "<group>";
+		};
+		9C2D5B1C25CFE234002E7721 /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D5B1D25CFE24B002E7721 /* ViewController03.swift */,
+				9C2D5B2225CFE348002E7721 /* ViewModel03.swift */,
+			);
+			path = 03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C2D5B0025CF141E002E7721 /* ViewController01.swift in Sources */,
+				9C2D5B2325CFE348002E7721 /* ViewModel03.swift in Sources */,
 				9C2D5AFC25CF141E002E7721 /* AppDelegate.swift in Sources */,
+				9C2D5B1E25CFE24B002E7721 /* ViewController03.swift in Sources */,
 				9C2D5B1925CFDDE1002E7721 /* ViewController02.swift in Sources */,
 				9C2D5AFE25CF141E002E7721 /* SceneDelegate.swift in Sources */,
 			);
